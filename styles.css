@@ -69,6 +69,10 @@ html, body {
   margin: 1em;
 }
 
+.content-section p {
+  font-size: 1.5em;
+}
+
 .container  {
   max-width: 900px;
   margin: 0 auto;
@@ -82,10 +86,9 @@ html, body {
 }
 
 .about-sect-img  {
-  float: left;
-  height: 200px;
-  width: 200px;
-  margin: 15px;
+  float: right;
+  width: 300px;
+  margin: 3px;
 }
 
 .main-footer  {
@@ -104,5 +107,6 @@ html, body {
 
 .footer-nav li {
   padding: 0, .5em;
+  float: right;
 }
 
