@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Fira Black';
-  src: url("fonts/FiraSans-Black.ttf");
+  src: url("../fonts/FiraSans-Black.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -59,7 +59,7 @@ html, body {
 
 .main_header {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("images/bubbletea_placeholder.jpg");
+  background-image: url("../images/bubbletea_placeholder.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
