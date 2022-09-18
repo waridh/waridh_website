@@ -91,6 +91,12 @@ html, body {
   margin: 35px;
 }
 
+.gallery_image  {
+  float: left;
+  width: 500px;
+  margin: 35px;
+}
+
 .main-footer  {
   background-color: darkseagreen;
   color: white;
