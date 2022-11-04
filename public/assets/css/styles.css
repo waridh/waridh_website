@@ -54,7 +54,7 @@ html, body {
 }
 
 .title-large  {
-  font-size: 9em;
+  font-size: 7em;
 }
 
 .main_header {
@@ -63,6 +63,13 @@ html, body {
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
+  max-width: 900px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  
 }
 
 .content-section  {
@@ -76,7 +83,7 @@ html, body {
 .container  {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 1.5em;
+  padding: 0 1.5em
 }
 
 .section-header  {
@@ -95,6 +102,13 @@ html, body {
   float: left;
   width: 500px;
   margin: 35px;
+}
+
+.gallery_section  {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
 
 .main-footer  {
