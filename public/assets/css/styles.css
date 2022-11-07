@@ -18,6 +18,10 @@ html, body {
   padding: 0;
 }
 
+/*******************************************************************************
+Navigation
+*******************************************************************************/
+
 .nav ul {
   margin: 0;
 }
@@ -29,13 +33,16 @@ html, body {
 .nav a  {
   display: inline-block;
   padding: 0.5cm;
-  color: white;
   text-decoration: none;
 }
 
 .nav a:hover  {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/*******************************************************************************
+Main top navigation
+*******************************************************************************/
 
 .main-nav  {
   text-align: center;
@@ -44,13 +51,17 @@ html, body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.main-nav a  {
+  color: white;
+}
+
 .title {
   text-align: center;
   margin: 0;
   font-size: 4em;
   font-family: 'Fira Black';
   font-weight: normal;
-  color: white;
+  color: rgb(219, 0, 0);
 }
 
 .title-large  {
@@ -59,12 +70,12 @@ html, body {
 
 .main_header {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: url("../images/bubbletea_placeholder.jpg");
+  background-image: url("../images/Gallery/2022-10-19/_DSC0019.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
-  max-width: 900px;
-  position: absolute;
+  max-width: 70vw;
+  position: relative;
   margin: auto;
   left: 0;
   right: 0;
@@ -81,38 +92,48 @@ html, body {
 }
 
 .container  {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1.5em
+  max-width: 70vw;
+  margin: auto;
+  padding: auto;
 }
 
 .section-header  {
   font-size: 2.5em;
   font-weight: normal;
   color: #333;
+  text-align: center;
 }
 
-.about-sect-img  {
-  float: right;
-  width: 300px;
-  margin: 35px;
+
+/*******************************************************************************
+Gallery section
+*******************************************************************************/
+
+.gallery_section  {
+  width: 60vw;
+  height: auto;
+  border: 15px solid green;
+  padding: 50px;
+  margin: auto;
+  justify-content: column;
+}
+
+.gallery_section  p2  {
+  text-align: center;
 }
 
 .gallery_image  {
   float: left;
-  width: 500px;
-  margin: 35px;
+  width: 45vw;
+  margin: 2.5vw;
 }
 
-.gallery_section  {
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
+/*******************************************************************************
+Footer stuff
+*******************************************************************************/
 
 .main-footer  {
-  background-color: darkseagreen;
+  background-color: rgb(33, 36, 34);
   color: white;
 }
 
@@ -130,3 +151,20 @@ html, body {
   float: right;
 }
 
+/*******************************************************************************
+About section
+*******************************************************************************/
+
+.about  {
+  background-color: rgb(255, 255, 255);
+}
+
+.about p  {
+  color: rgb(0, 0, 0);
+}
+
+.about-sect-img  {
+  float: left;
+  width: 400px;
+  margin: 10px;
+}
