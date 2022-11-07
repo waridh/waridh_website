@@ -27,7 +27,7 @@ Navigation
 }
 
 .nav li  {
-  display: inline
+  display: inline;
 }
 
 .nav a  {
@@ -55,6 +55,9 @@ Main top navigation
   color: white;
 }
 
+/*******************************************************************************
+Headers and title
+*******************************************************************************/
 .title {
   text-align: center;
   margin: 0;
@@ -74,7 +77,7 @@ Main top navigation
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
-  max-width: 70vw;
+  
   position: relative;
   margin: auto;
   left: 0;
@@ -83,16 +86,20 @@ Main top navigation
   
 }
 
+/*******************************************************************************
+Content sections and stuff
+*******************************************************************************/
+
 .content-section  {
   margin: 1em;
 }
 
 .content-section p {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .container  {
-  max-width: 70vw;
+  max-width: 50vw;
   margin: auto;
   padding: auto;
 }
@@ -110,21 +117,22 @@ Gallery section
 *******************************************************************************/
 
 .gallery_section  {
-  width: 60vw;
+  width: 50vw;
   height: auto;
   border: 15px solid green;
-  padding: 50px;
+  padding: 10%;
   margin: auto;
-  justify-content: column;
+  text-align: center;
+  
 }
 
 .gallery_section  p2  {
-  text-align: center;
+  color:black;
 }
 
 .gallery_image  {
   float: left;
-  width: 45vw;
+  width: 35vw;
   margin: 2.5vw;
 }
 
@@ -165,6 +173,33 @@ About section
 
 .about-sect-img  {
   float: left;
-  width: 400px;
-  margin: 10px;
+  width: 20vw;
+  margin: 1%;
+}
+
+/*******************************************************************************
+Projects
+*******************************************************************************/
+
+.projects-nav  {
+  text-align: left;
+}
+
+.projects-nav ul  {
+  margin: 2.5%;
+}
+
+.projects-nav li  {
+  display: block;
+}
+
+.projects-nav a  {
+  display: block;
+  padding: 2.5%;
+  text-decoration: none;
+  color: black
+}
+
+.projects-nav a:hover  {
+  background-color: rgba(0, 0, 0, 0.1);
 }
