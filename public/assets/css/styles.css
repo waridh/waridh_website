@@ -119,7 +119,10 @@ Gallery section
 .gallery_section  {
   width: 50vw;
   height: auto;
-  padding: 10%;
+  padding-top: 0;
+  padding-bottom: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
   margin: auto;
   text-align: center;
   
