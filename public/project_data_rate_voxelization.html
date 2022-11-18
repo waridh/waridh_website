@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Waridh | Gallery
+    </title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="main_header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="projects.html">PROJECTS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contacts.html">CONTACTS</a></li>
+        </ul>
+      </nav>
+      <h1 class="title title-large">Waridh</h1>
+    </header>
+    
+    <section class="container content-section">
+      <h2 class="section-header"> Data Rate Voxelization </h2>
+      <div class="gallery_section">
+        <div>
+        <img class="gallery_image" src="assets/images/projects/dataratevox/Single sensor scan.jpg" width = '720'>
+        </div>
+        <div class="gallery_label">
+          <p2>
+            Visualization of voxelized scan
+          </p2>
+        </div>
+      </div>
+      <p>
+        In this project, I was tasked with analysing the data rate required to
+        process data from a sensor as an autonomous vehicle moves through an
+        environment. To do this, we used LiDAR point clouds taken by Transport
+        Alberta as the input, and after creating a trajectory of the scanning
+        vehicle, we create roadpoints in even intervals. From there, we take a
+        snapshot of the point cloud from each location, where we remove points
+        that are too far away to be seen. We then voxelize those points in a
+        spherical coordinate instead of the conventional cartesian. This way,
+        we were also able to implement occlusions.
+      </p>
+      <div class="gallery_section">
+        <div>
+        <img class="gallery_image" src="assets/images/projects/dataratevox/two sensor scans 100 and 250.jpg" width = '720'>
+        </div>
+        <div class="gallery_label">
+          <p2>
+            Visualization of voxelized scan
+          </p2>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="title">
+          Waridh
+        </h3>
+        <ul class="nav footer-nav">
+          <li><a href="https://github.com/waridh" target="_blank"><img src="assets/images/GitHub-Mark/PNG/GitHub-Mark-Light-120px-plus.png" width="64"></a></li>
+          <li><a href="https://www.instagram.com/waridh.w/" target="_blank"><img src="assets/images/Instagram Logo Pack/02 White Glyph/Instagram_Glyph_White.png" width="64"></a></li>
+          <li><a href="https://www.linkedin.com/in/waridh-wongwandanee-b05518174" target="_blank"><img src="assets/images/LinkedIn-Logos/LI-In-Bug-white.png" height="64"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
