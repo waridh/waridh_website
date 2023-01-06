@@ -24,38 +24,34 @@
     <section class="container content-section">
       <h2 class="section-header"> YOLOv5 Traffic Intersection Analysis </h2>
       <p>
-        In this project, I was asked to make a program that could count and
+        The goal of this project was to make a program that could count and
         analyse the objects passing through an intersection. We had gone through
-        many ideas before settling with using yolov5 object detection and strong
-        sort object tracking to keep track of objects. Using this
-        implementation, we were able to keep track of the labels of each object,
-        and have relatively accurate pixel coordinates.
+        many ideas before settling with using yolov5 object detection and strongSORT object tracking to keep track of objects. Using this
+        implementation, we were able to keep track of the labels and coordinates of each object on the screen.
       </p>
+
       <p>
-        To analyse these intersions, we needed to process the outputs from the
-        yolov5 program. Using multiprocessing, we were able to determine the
-        cars Time to Collision and Post Encroachment Time.
+        To speed up the process of object detection and tracking, we ran yolov5 on the Compute Canada high performance computer array with reduced fps and detection model. This allowed us the cut the running time from five to seven hours to only around 40 minute for every 30 minutes of input data.
       </p>
+
       <div class="gallery_section">
         <div>
-        <img class="gallery_image" src="assets/images/projects/dataratevox/Single sensor scan.jpg" width = '720'>
+        <img class="gallery_image" src="assets/images/projects/yolov5intersectionanalysis/yolodetectiontraffic" width = '720'>
         </div>
         <div class="gallery_label">
           <p2>
-            Visualization of voxelized scan
+            Yolov5 detection and tracking frame. Ran through Compute Canada.
           </p2>
         </div>
       </div>
-      <div class="gallery_section">
-        <div>
-        <img class="gallery_image" src="assets/images/projects/dataratevox/two sensor scans 100 and 250.jpg" width = '720'>
-        </div>
-        <div class="gallery_label">
-          <p2>
-            Visualization of voxelized scan
-          </p2>
-        </div>
-      </div>
+      
+      <p>
+        To analyse these intersections, we needed to process the outputs from the
+        yolov5 program. Using multiprocessing, we were able to determine the
+        cars Time to Collision, Post Encroachment Time, and Time Difference to the Point of Intersection using different dynamic programming and logical methods.
+      </p>
+      
+      
     </section>
     
     <footer class="main-footer">
